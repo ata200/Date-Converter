@@ -1,0 +1,11 @@
+def date_format(date):
+  # write your code here
+  PD = date.split("/")
+  New_Date = date +" | "+PD[0]+"-"+PD[1]+"-"+PD[2]+" | "+PD[1]+"/"+PD[2]+"/"+PD[0]
+  return New_Date
+  
+  pass
+
+t="2010/1/21"
+
+print(date_format(t))
